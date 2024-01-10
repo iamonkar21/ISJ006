@@ -1,0 +1,31 @@
+
+
+1. Course class creation with fields id, name, price, description
+
+2. CourseApp --> main -->
+
+     1. accept the course deatils such as id, name, price, description
+
+     2. Create Course Class Object.
+
+       3. fill the course object with accepted data.
+
+       4. call the CourseController --> addCourse(course);
+
+3. CouseController --> addCourse(course)
+
+4. CourseService --> addCourse(course)
+
+5. CourseDao --> addCourse(course) {SOP --> course added}
+
+
+
+Course
+
+CourseApp -> main (4)
+
+CourseController --> CRUD
+
+CourseService --> CRUD
+
+CourseDao --> CRUD
